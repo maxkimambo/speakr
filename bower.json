@@ -1,0 +1,20 @@
+{
+  "name": "speakr",
+  "description": "App showing upcoming KS Ignite talks",
+  "main": "server.js",
+  "authors": [
+    "Max Kimambo"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/maxkimambo/speakr",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "speakr",
+  "version": "1.0.0",
+  "description": "App showing upcoming KS Ignite talks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Kimambo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "bower": "^1.6.8",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "should": "^7.1.1"
+  }
+}
