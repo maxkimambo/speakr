@@ -9,7 +9,7 @@ module.exports = {
 		// routes for the root of the site
 		app.use('/', routes);
 		
-		// routes for /users/{{action}} of the site
+		// routes for /users/{{some- action}} of the site
 		app.use('/users', users);  
 	}
 }; 

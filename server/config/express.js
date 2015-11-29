@@ -9,7 +9,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 module.exports = function (app) {
-	app.engine('.hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }));
+	app.engine('.hbs', exphbs({
+		 defaultLayout: 'main',
+		 partialsDir: 'views/partials', 
+		 extname: '.hbs' }));
 	app.set('view engine', '.hbs');
 	
 	// uncomment after placing your favicon in /public
