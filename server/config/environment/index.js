@@ -9,6 +9,8 @@ var config = function() {
 	var all= {}; 
 	var configdata = {}; 
 	
+	all.siteTitle = "Speakr"; 
+	
 	// common to both environments 
 	all.root= path.normalize(__dirname + '/../../..'); 
 	
