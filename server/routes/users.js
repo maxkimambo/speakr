@@ -10,8 +10,4 @@ var userController = require('../controllers/user.controller');
 
 router.get('/list', userController.getAll); 
 
-router.get('/test', function(req, res, next){
-	res.render('test'); 
-	
-}); 
 module.exports = router; 

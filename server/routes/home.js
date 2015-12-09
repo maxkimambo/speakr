@@ -3,9 +3,12 @@ var router = express.Router();
 var config = require('../config/environment')(); 
 var homeController = require('../controllers/home.controller'); 
 
-router.get('/', homeController.home); 
-router.get('/register/:id', homeController.register); 
 
+router.get('/', homeController.home); 
+
+// router.get('/event/:id', function(req, res, next){
+// 	res.render('event'); 
+// }); 
 
 router.get('/about', function(req,res,next){
 	res.render('about', {
